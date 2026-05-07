@@ -1,0 +1,46 @@
+{
+  "ssid": "EscapeBox",
+  "version": "1.0.0",
+  "enigmas": [
+    { "id": 1, "name": "L'Académie",      "type": "tutorial"  },
+    { "id": 2, "name": "Le Labyrinthe",   "type": "maze"      },
+    { "id": 3, "name": "Le Spectre Radio","type": "radio"     },
+    { "id": 4, "name": "La Sentinelle",   "type": "sonar"     },
+    { "id": 5, "name": "La Libération",   "type": "boss"      }
+  ],
+  "profiles": {
+    "0": {
+      "name": "Public",
+      "maze_fog": 5,
+      "maze_time": 300,
+      "pot_tol": 250,
+      "sonar_tol": 5.0,
+      "code_len": 4,
+      "caesar_shift": 0,
+      "boss_time": 120,
+      "boss_hold": 2000
+    },
+    "1": {
+      "name": "Avancé",
+      "maze_fog": 3,
+      "maze_time": 180,
+      "pot_tol": 150,
+      "sonar_tol": 3.0,
+      "code_len": 4,
+      "caesar_shift": 3,
+      "boss_time": 60,
+      "boss_hold": 3000
+    },
+    "2": {
+      "name": "Expert",
+      "maze_fog": 2,
+      "maze_time": 120,
+      "pot_tol": 80,
+      "sonar_tol": 2.0,
+      "code_len": 6,
+      "caesar_shift": 5,
+      "boss_time": 45,
+      "boss_hold": 3000
+    }
+  }
+}

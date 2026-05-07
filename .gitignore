@@ -1,0 +1,22 @@
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+.clang-format
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.bin
+*.elf
+
+# Environment
+.env
+github_token
